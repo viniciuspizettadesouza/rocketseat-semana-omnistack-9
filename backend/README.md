@@ -6,6 +6,9 @@ Semana OmniStack 9.0, utilizando NodeJS no back-end, ReactJS no front-end e Reac
 
 yarn init -y \_ Cria package.json
 
-yarn add express \_
+yarn add express \_ Framework para controle de rotas
+
+yarn add nodemon -D \_ flag -D fala que vou usar o nodemon apenas no ambiente de dev
 
 
+CONTINUAR A PARTIR DOS 20MINS
