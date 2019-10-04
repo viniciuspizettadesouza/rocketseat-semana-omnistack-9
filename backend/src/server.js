@@ -9,13 +9,6 @@ mongoose.connect('mongodb+srv://zetta:zetta@clusterzetta-mcozz.mongodb.net/omnis
     useUnifiedTopology: true
 })
 
-// GET, POST, PUT, DELETE
-// req.query = acessar query params (para filtros)
-// req.params = acessar route params (para edição, delete)
-// req.body = acessar corpo da requisição (para criação, edição)
-
-// Sequelize para usar banco de dados SQL
-
 app.use(express.json())
 app.use(routes)
 
