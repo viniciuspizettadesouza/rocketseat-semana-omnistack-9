@@ -10,5 +10,6 @@ yarn add express \_ Framework para controle de rotas
 
 yarn add nodemon -D \_ flag -D fala que vou usar o nodemon apenas no ambiente de dev
 
+yarn add multer \_ para push de arquivos img
 
 CONTINUAR A PARTIR DOS 45MINS
