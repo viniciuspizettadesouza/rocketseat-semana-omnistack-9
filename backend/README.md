@@ -11,4 +11,4 @@ yarn add express \_ Framework para controle de rotas
 yarn add nodemon -D \_ flag -D fala que vou usar o nodemon apenas no ambiente de dev
 
 
-CONTINUAR A PARTIR DOS 20MINS
+CONTINUAR A PARTIR DOS 45MINS
