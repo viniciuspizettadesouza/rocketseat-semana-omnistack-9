@@ -4,7 +4,7 @@ Semana OmniStack 9.0, utilizando NodeJS no back-end, ReactJS no front-end e Reac
 
 # Comandos iniciais
 
-yarn create react-app frontend \_ cria 
+yarn create react-app frontend \_ cria aplicacao react
 
 # README padrão do Create React App
 
