@@ -14,7 +14,11 @@ function App() {
       email
     })
 
+    const { _id } = response.data
+
+    localStorage.setItem('user', _id)
   }
+
   function handleEmailChange(event) {
     setEmail(event.target.value)
   }
@@ -34,7 +38,6 @@ function App() {
             value={email}
             onChange={handleEmailChange}
           />
-
           <button className="btn" type="submit">Entrar</button>
         </form>
       </div>
