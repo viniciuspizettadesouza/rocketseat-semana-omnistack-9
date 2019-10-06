@@ -2,6 +2,8 @@
 
 Semana OmniStack 9.0, utilizando NodeJS no back-end, ReactJS no front-end e React Native no mobile.
 
+### continuar 33minutos
+
 # Comandos iniciais
 
 yarn create react-app frontend \_ cria aplicacao react
