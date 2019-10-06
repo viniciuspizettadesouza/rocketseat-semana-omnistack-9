@@ -12,6 +12,7 @@ yarn add nodemon -D \_ flag -D fala que vou usar o nodemon apenas no ambiente de
 
 yarn add multer \_ para push de arquivos img
 
+yarn add cors \_ cross origin resource sharing, limitar o acesso do backend/endpoint
 
 SERVER
 GET, POST, PUT, DELETE
@@ -29,6 +30,3 @@ store, criar sessão
 destroy, remover/deletar sessão
 por padrao mvc da comunidade nao devo criar mais metods alem desses
 no mesmo controller, e sim criar outro controller
-
-
-
