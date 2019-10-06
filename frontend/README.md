@@ -8,6 +8,8 @@ Semana OmniStack 9.0, utilizando NodeJS no back-end, ReactJS no front-end e Reac
 
 yarn create react-app frontend \_ cria aplicacao react
 
+yarn add axios \_ p rotas
+
 # README padrão do Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
