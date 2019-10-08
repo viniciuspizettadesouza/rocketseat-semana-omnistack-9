@@ -10,6 +10,8 @@ expo init mobile \_ cria e inicia projeto na pasta mobile
 
 yarn add react-navigation \_ navegação do react native
 
+expo install react-native-gesture-handler react-native-reanimated \_
+
 # Para iniciar aplicação
 
 yarn start \_
