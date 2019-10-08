@@ -12,6 +12,10 @@ yarn add react-navigation \_ navegação do react native
 
 expo install react-native-gesture-handler react-native-reanimated \_
 
+yarn add axios \_
+
 # Para iniciar aplicação
+
+sempre verificar IP da API
 
 yarn start \_
