@@ -14,6 +14,12 @@ yarn add multer \_ para push de arquivos img
 
 yarn add cors \_ cross origin resource sharing, limitar o acesso do backend/endpoint
 
+# Para iniciar aplicação
+
+yarn dev \_
+
+# Comentários
+
 SERVER
 GET, POST, PUT, DELETE
 req.query = acessar query params (para filtros)
