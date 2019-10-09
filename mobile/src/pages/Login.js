@@ -19,7 +19,6 @@ export default function Login({ navigation }) {
 
 
     async function handleSubmit() {
-        //email, techs
         const response = await api.post('/sessions', {
             email
         })

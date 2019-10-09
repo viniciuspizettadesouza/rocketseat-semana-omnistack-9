@@ -9,7 +9,7 @@ function SpotList({ tech, navigation }) {
 
     useEffect(() => {
         async function loadSpots() {
-            const response = await api.get('spots', {
+            const response = await api.get('/spots', {
                 params: { tech }
             })
             setSpots(response.data)
@@ -32,6 +32,7 @@ function SpotList({ tech, navigation }) {
                 showsHorizontalScrollIndicator={false}
                 renderItem={({ item }) => (
                     <View style={styles.listItem}>
+                        <Text>{item.thumbnail_url}</Text>
                         <Image style={styles.thumbnail} source={{ uri: item.thumbnail_url }} />
                         <Text style={styles.company} >{item.company}</Text>
                         <Text style={styles.price} >{item.price ? `R$${item.price}/dia` : GRATUITO}</Text>

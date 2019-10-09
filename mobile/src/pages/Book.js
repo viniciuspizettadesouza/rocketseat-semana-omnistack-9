@@ -24,7 +24,6 @@ export default function Book({ navigation }) {
 
     return (
         <SafeAreaView style={styles.container} >
-            <Text>{id}</Text>
             <Text style={styles.label}>DATA DE INTERESSE *</Text>
             <TextInput
                 style={styles.input}
@@ -39,15 +38,15 @@ export default function Book({ navigation }) {
 
             <TouchableOpacity onPress={handleSubmit} style={styles.button}>
                 <Text style={styles.buttonText}>Solicitar reserva</Text>
-            </TouchableOpacity>
+            </TouchableOpacity>        
 
-            <TouchableOpacity onPress={handleCancel} style={[styles.cancelButton, styles.cancelButton]}>
+            <TouchableOpacity onPress={handleCancel} style={[styles.button, styles.cancelButton]}>
                 <Text style={styles.buttonText}>Cancelar</Text>
             </TouchableOpacity>
         </SafeAreaView>
     )
 }
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         margin: 30,
     },
