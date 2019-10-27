@@ -30,9 +30,12 @@ req.body = acessar corpo da requisição (para criação, edição)
 
 CONTROLLERS
 metodos do controller index, show, store, update, destroy
-index listagem de sessões
-show, lista unica atual
-store, criar sessão
-destroy, remover/deletar sessão
+index – Lista os dados da tabela
+show – Mostra um item específico
+create – Retorna a View para criar um item da tabela
+store – Salva o novo item na tabela
+edit – Retorna a View para edição do dado
+update – Salva a atualização do dado
+destroy – Remove o dado
 por padrao mvc da comunidade nao devo criar mais metods alem desses
 no mesmo controller, e sim criar outro controller
